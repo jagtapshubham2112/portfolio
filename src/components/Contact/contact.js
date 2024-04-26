@@ -73,7 +73,7 @@ const Contact = () => {
                     <div className='linkWrapper'><a href='https://twitter.com/jshubham2112'><img src={TwitterIcon} alt="Twitter" className="link2" /> </a></div>
                     <div className='linkWrapper'><a href='https://www.instagram.com/shubhamjagtap212'><img src={InstagramIcon} alt="Instagram" className="link3" /></a></div>
                     <div className='linkWrapper'><a href='tel:+919730009088'><img src={PhoneCall} alt="Phone_Call" className="link4" /></a></div>
-                    <div className='linkWrapper'><a href='mailto:amailto:jagtapshubham2112@gmail.com'><img src={Gmail} alt="Gmail" className="link5" /></a></div>
+                    <div className='linkWrapper'><a href='mailto:jagtapshubham2112@gmail.com'><img src={Gmail} alt="Gmail" className="link5" /></a></div>
                     </div>
                 </form>
             </div>
