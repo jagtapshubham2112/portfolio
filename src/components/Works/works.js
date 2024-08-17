@@ -6,7 +6,7 @@ import Portfolio3 from '../../assets/portfolio-3.png';
 import Portfolio4 from '../../assets/portfolio-4.png';
 import Portfolio5 from '../../assets/portfolio-5.png';
 import Portfolio6 from '../../assets/portfolio-6.png';
-import Github from '../../assets/github.png'
+import Github from '../../assets/github.png';
 
 const Works = () => {
     return (
@@ -14,19 +14,21 @@ const Works = () => {
             <h2 className="worksTitle">My Portfolio</h2>
             <span className="worksDesc">I take pride in paying attention to detail.</span>
             <div className="worksImgs">
-                <img src={Portfolio1} alt="" className="worksImg" />
-                <img src={Portfolio2} alt="" className="worksImg" />
-                <img src={Portfolio3} alt="" className="worksImg" />
-                <img src={Portfolio4} alt="" className="worksImg" />
-                <img src={Portfolio5} alt="" className="worksImg" />
-                <img src={Portfolio6} alt="" className="worksImg" />
+                <img src={Portfolio1} alt="Portfolio 1" className="worksImg" />
+                <img src={Portfolio2} alt="Portfolio 2" className="worksImg" />
+                <img src={Portfolio3} alt="Portfolio 3" className="worksImg" />
+                <a href="https://github.com/jagtapshubham2112/ecommerce" target="_blank" rel="noopener noreferrer">
+                    <img src={Portfolio4} alt="Portfolio 4" className="worksImg" />
+                </a>
+                <img src={Portfolio5} alt="Portfolio 5" className="worksImg" />
+                <img src={Portfolio6} alt="Portfolio 6" className="worksImg" />
             </div>
-            <button className='WorkBtn' onClick={() => { window.location.href = 'https://github.com/jagtapshubham2112'; }}>
-                <img src={Github} alt="" className="GithubImg" />
+            <button className='WorkBtn' onClick={() => window.location.href = 'https://github.com/jagtapshubham2112'}>
+                <img src={Github} alt="GitHub" className="GithubImg" />
                 See More
             </button>
-
         </section>
     );
 }
+
 export default Works;
