@@ -1,4 +1,5 @@
 .contactPage {
+    margin: 3rem auto 0rem auto;
     min-height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 60rem;
@@ -8,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 1rem;
 }
 
 .contactPageTitle {
