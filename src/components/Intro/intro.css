@@ -84,6 +84,7 @@
 
 @media screen and (max-width: 840px) {
     .bg {
+      margin-top: -22vw;
       right: -10vw;
     }
   
