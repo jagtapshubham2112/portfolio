@@ -1,11 +1,11 @@
 .contactPage {
     margin: 3rem auto 0rem auto;
-    min-height: calc(100vh - 4rem);
+    min-height: calc(100vh - 40rem);
     width: 100vw;
     max-width: 60rem;
     margin: 0 auto;
     text-align: center;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -65,7 +65,7 @@
 .msg {
     font-size: medium;
     width: 100%;
-    max-width: 40rem;
+    max-width: 45rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     color: white;
@@ -159,7 +159,7 @@
 .link1:active, .link2:active, .link3:active, .link4:active, .link5:active {
     transform: scale(0.8);
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1032px) {
     .linkWrapper{
         width: 55px;
         height: 50px;

@@ -1,6 +1,6 @@
 #works {
-  margin: 3rem auto 0rem auto;
-  min-height: calc(100vh - 4rem);
+  margin: 0rem auto 0rem auto;
+  min-height: calc(100vh - 40rem);
   width: 100vw;
   max-width: 60rem;
   display: flex;
@@ -27,14 +27,17 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 120vw; /* Set to 120vw to fit both images */
   max-width: 65rem;
 }
 
+
 .worksImg {
   object-fit: cover;
-  height: 20rem;
+  height: 15rem; /* Increased height for better fit */
+  width: calc(40% - 1rem); /* Set width for two columns */
   margin: 0.5rem;
+  border-radius: 1rem; /* More rounded angles */
   transition: transform 0.3s ease;
 }
 
@@ -67,15 +70,20 @@
   margin: 1rem;
 }
 
-.desktopMenuImg {
-  object-fit: cover;
-  height: 1rem;
-  width: 1rem;
-  margin: 1rem;
-}
+@media screen and (max-width: 1032px) {
+  #works{
+    display: flex;
+    flex-direction: column;
+  }
 
-@media screen and (max-width:585px) {
   .worksImg {
-    height: 48vw;
+    height: 40vw; /* Adjusted for mobile screens */
+    width: 90%; /* Full width for mobile */
+    border-radius: 1rem; /* More rounded angles */
+  }
+
+  .worksImgs {
+    width: 90vw; /* Set to 100vw for single dashboard display */
+    justify-content: center; /* Center alignment */
   }
 }

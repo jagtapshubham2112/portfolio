@@ -10,7 +10,7 @@ const education = () => {
     return (
         <section id='education'>
             <span className="educationTitle"> Education </span>
-            <span className="educationDesc"> I hold a Master's in Computer Application and a Bachelor's in Computer Science, providing a strong foundation in software development and IT. Equipped with comprehensive knowledge, I am poised to excel in the dynamic realm of technology. </span>
+            <span className="educationDesc"> Holding a Master's in Computer Application and a Bachelor's in Computer Science, I stand at the intersection of technology and analysis. My education empowers me to decipher data, turning intricate information into strategic insights that guide decisions in a dynamic world. </span>
             <div className="educationBars">
                 <div className="educationBar">
                     <img src={SPPU} alt="" className="educationBarImg" />

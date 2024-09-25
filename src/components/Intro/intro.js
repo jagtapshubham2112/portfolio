@@ -1,30 +1,28 @@
 import React from 'react';
 import './intro.css';
 import bg from '../../assets/image.png';
-import rs from '../../assets/shubham_Resume/Resume.pdf';
 import resumeBtnImg from '../../assets/resume.png';
 
 const Intro = () => {
-  const handleResumeDownload = (e) => {
-    e.preventDefault();
-    const link = document.createElement('a');
-    link.href = rs;
-    link.download = encodeURIComponent("Shubham's_Resume.pdf");
-    link.click();
-  };
-
   return (
     <section id="intro">
       <div className="introContent">
         <span className="hello">Hello, </span>
         <span className="introText">I'm <span className="introName">Shubham</span> <br /> Data Analyst </span>
-        <p className='introPara'>I'm a budding data analyst with a passion for turning data into <br /> insights. Explore my portfolio to see my projects and learn about <br /> my analytical journey. </p>
+        <p className='introPara'>
+          As an aspiring data analyst, I thrive on uncovering stories <br />
+          hidden within data. My portfolio showcases projects where <br />
+          data transforms into actionable insights. Dive in to explore <br /> 
+          how numbers shape impactful narratives.
+        </p>
         
         <div className="buttonWrapper">
-          <button className="btn" onClick={handleResumeDownload}>
-            <img src={resumeBtnImg} alt="Hire" className='btnImg' />
-            Resume
-          </button>
+          <a href="https://drive.google.com/uc?id=1YlbMFKFjjd2FuPrsjvfHiOhBBTXMOUdp&export=download" target="_blank" rel="noopener noreferrer">
+            <button className="btn">
+              <img src={resumeBtnImg} alt="Resume" className='btnImg' />
+              Resume
+            </button>
+          </a>
         </div>
       </div>
       <img src={bg} alt="Profile" className="bg" />
