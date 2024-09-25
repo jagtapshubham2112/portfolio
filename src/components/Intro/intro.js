@@ -17,7 +17,7 @@ const Intro = () => {
         </p>
         
         <div className="buttonWrapper">
-          <a href="https://drive.google.com/uc?id=1YlbMFKFjjd2FuPrsjvfHiOhBBTXMOUdp&export=download" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.usercontent.google.com/uc?id=1oDM2CCqXwmYzPvQmFojDLlD6i2QsON_u&export=download" target="_blank" rel="noopener noreferrer">
             <button className="btn">
               <img src={resumeBtnImg} alt="Resume" className='btnImg' />
               Resume
